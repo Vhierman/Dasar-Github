@@ -1,3 +1,4 @@
 Ini merupakan rumus-rumus / dasar-dasar yang ada pada github :
 
-1. Semua data yang ada di github harus di commit
+1. Semua data yang ada di github harus di commit.
+2. 
