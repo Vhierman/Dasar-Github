@@ -1,5 +1,5 @@
 Ini merupakan rumus-rumus / dasar-dasar yang ada pada github :
 
 1. Commit.
-2. Branch
+2. Branch ( Cabang )
     - Satu repo bisa membuat beberapa branch
