@@ -6,4 +6,9 @@ Ini merupakan rumus-rumus / dasar-dasar yang ada pada github :
     - Merge adalah menyatukan branch baru ke branch master
     - Kenapa pull request?
         Kalau kita bikin branch, branch tersebut tersebut harus meminta ijin ke master branch untuk menarik data perubahan tersebut.
-
+3. FORK
+    - Membuat Copy/Duplikat dari repo orang lain ( beserta history )
+    - Jembatan antara repo original dan duplikatnya
+    - Modifikasi terhadap repo original
+    - Berkontribusi pada repo orang lain
+    - FORK tidak sama dengan Clone
