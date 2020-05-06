@@ -6,3 +6,4 @@ Ini merupakan rumus-rumus / dasar-dasar yang ada pada github :
     - Merge adalah menyatukan branch baru ke branch master
     - Kenapa pull request?
         Kalau kita bikin branch, branch tersebut tersebut harus meminta ijin ke master branch untuk menarik data perubahan tersebut.
+
