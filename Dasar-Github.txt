@@ -1,16 +1,66 @@
-Ini merupakan rumus-rumus / dasar-dasar yang ada pada github :
+Compare and pull request
 
-1. Commit.
-2. Branch ( Cabang )
-    - Satu repo bisa membuat beberapa branch.
-    - Merge adalah menyatukan branch baru ke branch master
-    - Kenapa pull request?
-        Kalau kita bikin branch, branch tersebut tersebut harus meminta ijin ke master branch untuk menarik data perubahan tersebut.
-3. Fork / Forking
-    - Membuat Copy/Duplikat dari repo orang lain ( beserta history )
-    - Jembatan antara repo original dan duplikatnya
-    - Modifikasi terhadap repo original
-    - Berkontribusi pada repo orang lain
-    - FORK tidak sama dengan Clone
-4. GITLAB
-    -
+Kenapa pull request?
+Kalau kita bikin branch, branch tersebut tersebut harus meminta ijin ke master branch untuk menarik data perubahan tersebut.
+
+FORK
+- Membuat Copy/Duplikat dari repo orang lain ( beserta history )
+- JEmbatan antara repo original dan duplikatnya
+- Modifikasi terhadap repo original
+- Berkontribusi pada repo orang lain
+- FORK tidak sama dengan Clone
+
+GIT
+
+- git --version ( Melihat Versi GIT )
+- clear ( Menghapus Isi Layar Console )
+- git init ( Untuk Menginisialisasi )
+- git add <file(s)>
+- git status ( Untuk mengetahui status Repo )
+- git commit ( Untuk Melakukan Commit )
+- git config ( Untuk melakukan config kedalam GIT )
+- git branch ( Untuk membuat Branch )
+- git help ( Untuk mengetahui perintah - perintah git )
+
+3 Area Repo GIT
+
+- Working Tree ( Folder Tempat Bekerja )
+- Staging Area ( Untuk Mengasih Tau GIT Bahwa Ada Perubahan )
+- History ( Menyimpan yang sidah di commit ) 
+
+Perintah Dan Artinya 
+
+- pwd ( print working directory ) Untuk mengetahui Kita sedang ada dimana
+- ls ( Untuk mengetahui isi yang ada di dalam directory tersebut )
+- cd c:/xampp/htdocs/ ( Untuk pindah kedalam directory c/xaampp/htdocs )
+- git init ( untuk menginisialisasi bahwa folder tersebut adalah repo git )
+- git status ( memberi tau ada file perubahan apa )
+- Kalau kita ingin commit ( File yang di repo harus di taruh di Stagging Area )
+  dengan cara git add (nama file)
+- Kalau sudah masuk stagging area harus di commit
+  git commit -m "isi pesan commit"
+- git log ( Untuk melihat kita telah melakukan apa saja )
+- git checkout (isi hash 5 digit) -- ( namafile ) = Untuk mengembalikan file yang telah dihapus
+- Membuat nama Branch Baru
+  a. git branch (nama branch)
+- Membuat alias 
+  a. alias graph ="nama perintah"
+- Pindah Branch
+  git checkout (nama branch)
+- Melakukan Merge Branch ( Ada Dua Jenis Merge )
+  1. Fast Forward
+	a. Terjadi ketika branch yang ingin dihubungkan berada di jalur langsung ( Direct )
+  2. Three Way Merge
+	a. Terjadi ketika merge dan bikin commit baru
+- Melihat Branch mana yang sudah di merge
+	a. git branch --merged
+- Menghapus Branch 
+	a. git branch -d (nama branch)
+	b. git branch -D (nama branch)
+
+GIT REMOTE
+
+
+
+
+
