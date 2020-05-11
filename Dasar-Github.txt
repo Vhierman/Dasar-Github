@@ -75,6 +75,7 @@ GIT REMOTE
 5. Ketika ada conflict antara GITHUB dengan lokal maka
 	- git pull      = untuk mengetahui perbedaannya
 	- setelah itu git add dan git commit kemudian git push, untuk memberikan perubahan ke GITHUB
+6. 
 
 
 
