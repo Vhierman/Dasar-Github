@@ -61,6 +61,55 @@ Perintah Dan Artinya
 GIT REMOTE
 
 
+1. Clone Repo yang ada pada GITHUB ke Lokal
+	- git clone (https:// nama repo github)
+
+2. Untuk mengirim perubahan yang terjadi pada GIT ke GITHUB
+	- git push
+3. git commit -am "Pesan"
+	- Untuk commit dan add secara sekaligus
+4. Memindahkan File Yang dilokal ke GITHUB
+	- Buat Repo baru dengan nama yang sama dan inisialize readme kosongin
+	- git remote add origin (https://nama repo)
+	- git push -u origin master ( Mengirimkan data lokal ke GITHUB)
+5. Ketika ada conflict antara GITHUB dengan lokal maka
+	- git pull      = untuk mengetahui perbedaannya
+	- setelah itu git add dan git commit kemudian git push, untuk memberikan perubahan ke GITHUB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
