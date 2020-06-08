@@ -12,6 +12,11 @@ FORK
 
 GIT
 
+
+ Jika baru pertama kali meggunakan software Git, sebaiknya konfigurasi username dan email dulu
+git config --global user.name "username anda"
+git config --global user.email "email anda"
+
 - git --version ( Melihat Versi GIT )
 - clear ( Menghapus Isi Layar Console )
 - git init ( Untuk Menginisialisasi )
